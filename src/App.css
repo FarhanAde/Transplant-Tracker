@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', 'Poppins', 'Afacad Flux', sans-serif;
+}
+  
+.home, .patients, .donors, .hospitals, .contact-us, .live-tracker, 
+.demand, .donor-records {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+  
+.patients {
+  /* background-image: url("/codeStockImage.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #0d706b;
+  font-size: 100px;
+}
+  
+.donors {
+  /* background-image: url("/uclPortico.jpg"); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #0d706b;
+  font-size: 100px;
+}
+
+.hospitals {
+  /* background-image: url("/jpmorganStockImage.jpg"); */
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #0d706b;
+  font-size: 100px;
+}
+  
+.contact-us, .live-tracker,
+.patient-records, .donor-records,
+.demand {
+  /* background-image: url('/images/img-8.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #0d706b;
+  font-size: 100px;
+}
+
+.patient-records {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5rem;
+  margin: 20px 0;
+  color: #0d706b;
+}
+
+.urgency {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5rem;
+  margin: 20px 0;
+  color: #0d706b;
+}

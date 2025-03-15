@@ -1,0 +1,122 @@
+.urgent-organ-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #17a2b8;
+    height: 100%;
+}
+  
+.urgent-organ-heading {
+    color: #17a2b8;
+    font-size: 20px;
+    margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+}
+  
+.urgent-organ-heading::before {
+    content: "🫀";
+    margin-right: 10px;
+}
+  
+.organ-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.organ-details li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+}
+  
+.organ-details li:last-child {
+    border-bottom: none;
+}
+  
+.organ-details strong {
+    width: 130px;
+    display: inline-block;
+    color: #495057;
+}
+  
+.organ-value {
+    font-weight: 500;
+    color: #212529;
+}
+  
+.transplant-urgent {
+    color: #dc3545;
+    font-weight: bold;
+}
+  
+.loading-message {
+    color: #6c757d;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+.fetch-organ-section {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+.fetch-organ-heading {
+    color: #343a40;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.organ-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.organ-input {
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.organ-button {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.organ-button:hover {
+    background-color: #138496;
+}
+  
+@media (max-width: 768px) {
+    .urgent-organ-container {
+        padding: 15px;
+    }
+
+    .organ-details li {
+        flex-direction: column;
+    }
+
+    .organ-details strong {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+    .organ-form {
+        flex-direction: column;
+    }
+}

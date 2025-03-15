@@ -1,0 +1,91 @@
+/* OrganIDFetcher.css */
+.organ-fetcher-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    border-left: 5px solid #6c757d;
+}
+
+.organ-fetcher-heading {
+    color: #343a40;
+    font-size: 20px;
+    margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.organ-fetcher-heading::before {
+    content: "🔍";
+    margin-right: 10px;
+}
+
+.organ-fetcher-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.organ-fetcher-input {
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.organ-fetcher-input:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.organ-fetcher-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.organ-fetcher-button:hover {
+    background-color: #5a6268;
+}
+
+.organ-fetcher-result {
+    margin-top: 12px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+.organ-fetcher-result strong {
+    margin-right: 8px;
+    color: #495057;
+}
+
+.organ-fetcher-error {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #f8d7da;
+    border-radius: 4px;
+    border-left: 3px solid #dc3545;
+}
+
+@media (max-width: 768px) {
+    .organ-fetcher-container {
+    padding: 15px;
+    }
+
+    .organ-fetcher-form {
+    flex-direction: column;
+    }
+
+    .organ-fetcher-button {
+    width: 100%;
+    }
+}
